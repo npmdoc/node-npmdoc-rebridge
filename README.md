@@ -1,6 +1,6 @@
 # npmdoc-rebridge
 
-#### api documentation for  [rebridge (v2.2.0)](https://github.com/CapacitorSet/rebridge)  [![npm package](https://img.shields.io/npm/v/npmdoc-rebridge.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rebridge) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rebridge.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rebridge)
+#### basic api documentation for  [rebridge (v2.2.0)](https://github.com/CapacitorSet/rebridge)  [![npm package](https://img.shields.io/npm/v/npmdoc-rebridge.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rebridge) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rebridge.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rebridge)
 
 #### A transparent bridge to Redis.
 
@@ -68,7 +68,8 @@
         "lint": "eslint .",
         "test": "mocha test/deasync.js && mocha test/promiseful.js"
     },
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
